@@ -1,0 +1,16 @@
+.show-cast .cast-boxes-container {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.show-cast .cast-boxes-container p {
+  padding: 1px 7px;
+  border: 2px solid white;
+  border-radius: 7px;
+}
+@media (max-width: 767px) {
+  .show-cast .cast-boxes-container {
+    justify-content: center;
+  }
+}

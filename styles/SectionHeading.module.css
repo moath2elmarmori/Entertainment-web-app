@@ -1,0 +1,38 @@
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.heading .heading-left-section {
+  display: flex;
+
+  align-items: center;
+  gap: 1rem;
+}
+.heading .heading-left-section h1 {
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+.heading .heading-left-section p {
+  text-transform: uppercase;
+  border: 2px solid white;
+  padding: 2px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 6px;
+  font-size: 0.75rem;
+}
+.heading .heading-left-section p.tvseries {
+  background-color: white;
+  color: black;
+}
+.heading .heading-right-section a {
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+.heading .heading-right-section a:hover {
+  border-bottom: 1px solid var(--primary-color);
+}

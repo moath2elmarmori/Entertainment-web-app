@@ -1,0 +1,7 @@
+.not-found {
+  min-height: 65vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

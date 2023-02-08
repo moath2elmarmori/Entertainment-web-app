@@ -1,0 +1,8 @@
+.show-info {
+  display: flex;
+  justify-content: space-between;
+}
+.show-info > div h3 {
+  margin-bottom: 5px;
+  color: #6e7b86;
+}

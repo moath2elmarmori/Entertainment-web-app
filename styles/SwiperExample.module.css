@@ -1,0 +1,40 @@
+.swiper-item {
+  /* background-color: red; */
+  max-width: 400px;
+}
+.swiper-item .show-box {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.swiper-item .show-box::before {
+  content: "";
+  position: absolute;
+  background: #1a1a1a96;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+}
+.swiper-item .show-box:hover::before {
+  background: #1a1a1a4d;
+}
+.swiper-item .show-box img {
+  width: 100%;
+}
+.swiper-item .show-box .show-info-div {
+  position: absolute;
+  bottom: 0;
+  /* background: blue; */
+  padding: 10px;
+}
+.swiper-item .show-box .show-info-div > div {
+  display: flex;
+}
+.swiper-item .show-box .show-info-div > div .icon-div {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 2px;
+}

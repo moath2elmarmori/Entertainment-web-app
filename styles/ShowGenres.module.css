@@ -1,0 +1,19 @@
+.show-genres {
+}
+.show-genres .genre-boxes-container {
+  margin-top: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.show-genres .genre-boxes-container .genre-box {
+  background: white;
+  color: black;
+  padding: 1px 7px;
+  border-radius: 7px;
+}
+@media (max-width: 767px) {
+  .show-genres .genre-boxes-container {
+    justify-content: center;
+  }
+}

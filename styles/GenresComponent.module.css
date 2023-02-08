@@ -1,0 +1,45 @@
+.genre-boxes-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  gap: 20px;
+  margin-top: 50px;
+}
+.genre-boxes-container .genre-box {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.genre-boxes-container .genre-box:nth-child(odd) {
+  background-color: #0e7490;
+}
+.genre-boxes-container.series .genre-box:nth-child(odd) {
+  background-color: #0f766e;
+}
+.genre-boxes-container .genre-box:nth-child(even) {
+  background-color: #171e31;
+}
+.genre-boxes-container .genre-box:nth-child(odd):hover {
+  animation: hover-on-show-box-odd-children 0.2s;
+}
+.genre-boxes-container .genre-box:nth-child(even):hover {
+  animation: hover-on-show-box-even-children 0.2s;
+}
+@keyframes hover-on-show-box-odd-children {
+  0% {
+    transform: skew(0);
+  }
+  100% {
+    transform: skew(2deg);
+  }
+}
+@keyframes hover-on-show-box-even-children {
+  0% {
+    transform: skew(0);
+  }
+  100% {
+    transform: skew(-2deg);
+  }
+}
