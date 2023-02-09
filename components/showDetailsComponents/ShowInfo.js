@@ -4,7 +4,7 @@ const ShowInfo = ({ showInfo, showType }) => {
   return (
     <div className={`${styles["show-info"]}`}>
       <div>
-        <h3>{showType === "tvseries" ? "Number Of Episodes" : "Length"}</h3>
+        <h3>{showType === "tvseries" ? "Num Of Ep" : "Length"}</h3>
         <p>
           {showType === "tvseries"
             ? `${showInfo.number_of_episodes || "-"}`
