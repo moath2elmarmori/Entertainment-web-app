@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# [Entertainment Web App](https://entertainment-web-app-moath.vercel.app/)
 
-## Getting Started
+### This project is a challenge from "frontend mentor" done by ME
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Table of content:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Screenshots](#screenshots)
+- [Built with](#built-with)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Screenshots
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![Home Page](https://res.cloudinary.com/dk5awi1mn/image/upload/v1675929525/github-readme/entertainment-web-app/Screenshot_1_r0ld2g.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Specific Show Page](https://res.cloudinary.com/dk5awi1mn/image/upload/v1675929522/github-readme/entertainment-web-app/Screenshot_2_nsyx4a.png)
 
-## Learn More
+![Genres Page](https://res.cloudinary.com/dk5awi1mn/image/upload/v1675929520/github-readme/entertainment-web-app/Screenshot_3_hupt7e.png)
 
-To learn more about Next.js, take a look at the following resources:
+![Search Show Page](https://res.cloudinary.com/dk5awi1mn/image/upload/v1675929525/github-readme/entertainment-web-app/Screenshot_4_oassow.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Built with:
 
-## Deploy on Vercel
+- NextJS for everything 😅
+- TMDB (The Movie DataBase) for the API (congrats for their hard work & kindness for letting users working with their API for free )
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+P.S: If you want to preview the site, either click on the blue "Entertainment Web App" above, or here: [Live Site](https://entertainment-web-app-moath.vercel.app/)
