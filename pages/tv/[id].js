@@ -16,7 +16,7 @@ import { TV_DETAILS_ENDPOINT } from "../../utils/TVEndpoints";
 
 const MovieDetailsPage = ({ showInfo, showCredits, notFound }) => {
   const [isImageLoaded, setIsImageLoaded] = useState(false);
-  console.log("this is the show object", showInfo);
+  console.log("this is the show info", showInfo);
   if (notFound) return <NotFound />;
   return (
     <>
@@ -45,7 +45,7 @@ const MovieDetailsPage = ({ showInfo, showCredits, notFound }) => {
           </h1>
           <p className={`${styles["show-tagline"]}`}>{showInfo.tagline}</p>
           <StarsRating starsRating={+(showInfo.vote_average / 2).toFixed(1)} />
-          <ShowInfo showInfo={showInfo} />
+          <ShowInfo showInfo={showInfo} showType="tvseries" />
           <ShowGenres showGenres={showInfo.genres} />
           <div className={`${styles["show-synopsis"]}`}>
             <h3>Synopsis</h3>

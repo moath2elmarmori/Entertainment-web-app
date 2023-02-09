@@ -33,7 +33,9 @@
 }
 .layout-container .content-container .search-div .input-div {
   flex: 1;
+  margin-top: 5px;
 }
+
 .layout-container .content-container .search-div .input-div input {
   width: 100%;
   background: transparent;

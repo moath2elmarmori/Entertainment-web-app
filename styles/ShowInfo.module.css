@@ -6,3 +6,6 @@
   margin-bottom: 5px;
   color: #6e7b86;
 }
+.show-info .show-lang {
+  text-transform: uppercase;
+}

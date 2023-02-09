@@ -5,7 +5,9 @@
   margin-top: 50px;
 }
 .genre-boxes-container .genre-box {
-  height: 250px;
+  height: 200px;
+  padding: 10px;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,6 +28,11 @@
 }
 .genre-boxes-container .genre-box:nth-child(even):hover {
   animation: hover-on-show-box-even-children 0.2s;
+}
+@media (max-width: 767px) {
+  .genre-boxes-container .genre-box {
+    height: 175px;
+  }
 }
 @keyframes hover-on-show-box-odd-children {
   0% {

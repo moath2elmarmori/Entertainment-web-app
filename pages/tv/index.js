@@ -9,7 +9,7 @@ const TVPage = ({ genres }) => {
         <title>TV Genres</title>
       </Head>
       <div>
-        <h1>TV Genres</h1>
+        <h1 style={{ marginTop: "25px" }}>TV Genres</h1>
         <GenresComponent genresOf={"series"} genresArray={genres} />
       </div>
     </>

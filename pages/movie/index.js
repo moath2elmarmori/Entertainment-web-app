@@ -11,7 +11,7 @@ const MoviePage = ({ genres }) => {
         <title>Movie Genres</title>
       </Head>
       <div>
-        <h1>Movie Genres</h1>
+        <h1 style={{ marginTop: "25px" }}>Movie Genres</h1>
         <GenresComponent genresArray={genres} />
       </div>
     </>

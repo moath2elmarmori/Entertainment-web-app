@@ -17,6 +17,7 @@ import { useState } from "react";
 
 const MovieDetailsPage = ({ showInfo, showCredits, notFound }) => {
   const [isImageLoaded, setIsImageLoaded] = useState(false);
+  console.log("this is the show info", showInfo);
   if (notFound) return <NotFound />;
   return (
     <>

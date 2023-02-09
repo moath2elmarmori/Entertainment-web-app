@@ -1,15 +1,21 @@
 import styles from "../../styles/ShowInfo.module.css";
 
-const ShowInfo = ({ showInfo }) => {
+const ShowInfo = ({ showInfo, showType }) => {
   return (
     <div className={`${styles["show-info"]}`}>
       <div>
-        <h3>Length</h3>
-        <p>{showInfo?.runtime} min</p>
+        <h3>{showType === "tvseries" ? "Number Of Episodes" : "Length"}</h3>
+        <p>
+          {showType === "tvseries"
+            ? `${showInfo.number_of_episodes || "-"}`
+            : `${showInfo?.runtime} min`}{" "}
+        </p>
       </div>
       <div>
         <h3>Language</h3>
-        <p>{showInfo?.original_language}</p>
+        <p className={`${styles["show-lang"]}`}>
+          {showInfo?.original_language}
+        </p>
       </div>
       <div>
         <h3>Year</h3>

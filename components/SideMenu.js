@@ -4,7 +4,9 @@ import { TbDeviceTvOld } from "react-icons/tb";
 import { CgProfile } from "react-icons/cg";
 import styles from "../styles/SideMenu.module.css";
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter } from "next/router";
+import ProfileImageSrc from "../images/profile-image.jpeg";
 
 const SideMenu = () => {
   const router = useRouter();
@@ -46,7 +48,17 @@ const SideMenu = () => {
       </div>
       <div className={`${styles["profile-div"]}`}>
         <div>
-          <CgProfile />
+          {/* <CgProfile /> */}
+          <Image
+            title="My GitHub Profile"
+            src={ProfileImageSrc}
+            alt="My Profile Image"
+            width={40}
+            height={40}
+            onClick={(e) => {
+              window.open("https://github.com/moath2elmarmori");
+            }}
+          />
         </div>
       </div>
     </div>
